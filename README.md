@@ -1,7 +1,3 @@
-# rs-caesar-cipher
-
-
-# H1
 This is a CLI tool for text exncryption using caesar cipher.
 
 
