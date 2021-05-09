@@ -1,4 +1,4 @@
-This is a CLI tool for text exncryption using caesar cipher.
+This is a CLI tool for text encryption using caesar cipher.
 
 
 CLI tool can accept 4 options (short alias or full name):
