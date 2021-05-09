@@ -17,9 +17,7 @@ const outputStream = (path) => {
   let stream = process.stdout;
   if (path) {
     try {
-      stream = fs.createWriteStream(path);
-      //To check if it is possible to create file
-      fs.writeFileSync(path, "");
+      stream = fs.createWriteStream(path, { flags: 'a' });
     } catch (err) {
       console.error(`Unable output to file "${path}".`)
       process.exit(1)
