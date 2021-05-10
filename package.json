@@ -1,0 +1,24 @@
+{
+  "name": "rs-caesar-cipher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my_caesar_cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikenov/rs-caesar-cipher.git"
+  },
+  "author": "Azamat Tikenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikenov/rs-caesar-cipher/issues"
+  },
+  "homepage": "https://github.com/tikenov/rs-caesar-cipher#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "through": "^2.3.8"
+  }
+}
